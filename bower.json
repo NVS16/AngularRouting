@@ -1,0 +1,21 @@
+{
+  "name": "routingproject",
+  "description": "Single Page App using AngularJS",
+  "main": "server.js",
+  "authors": [
+    "rkpattnaik780 <rkpattnaik780@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/rkpattnaik780/AngularRouting",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.6",
+    "angular-route": "^1.6.6"
+  }
+}
