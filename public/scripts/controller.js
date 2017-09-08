@@ -5,7 +5,7 @@
         var scotchApp = angular.module('scotchApp', ['ngRoute']);
         
             // configure our routes
-            scotchApp.config(function($routeProvider) {
+            scotchApp.config(function($routeProvider ,  $locationProvider) {
                 $routeProvider
         
                     // route for the home page
@@ -25,6 +25,8 @@
                         templateUrl : '../pages/contact.html',
                         controller  : 'contactController'
                     });
+                
+                $locationProvider.html5Mode(true);
             });
         
             // create the controller and inject Angular's $scope
